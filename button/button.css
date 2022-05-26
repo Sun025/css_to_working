@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.button .pill {
+  font-size: 12px;
+  font-family: 'Readex Pro', sans-serif;
+  padding: 0.5em 1em;
+  margin: 1em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background-color: #dddddd;
+  cursor: pointer;
+}
+.button .pill:not(.pill-select):hover {
+  background-color: #cccccc;
+}
+.button .pill-select {
+  background-color: #009578;
+  color: #ffffff;
+}

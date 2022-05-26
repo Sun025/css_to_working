@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./button.css">
+    <title>Button</title>
+</head>
+<body>
+    <div class="button">
+        <button class="pill" type="button">CSS Button</button>
+        <button class="pill pill-select" type="button">CSS Button</button>
+    </div>
+    <script>
+        document.querySelectorAll('.pill').forEach(el => {
+            el.addEventListener('click', () => {
+                el.classList.toggle('pill-select');
+            });
+        })
+    </script>
+</body>
+</html>
